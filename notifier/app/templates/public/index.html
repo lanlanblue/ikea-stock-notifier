@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/main.css') }}">
+        <!--
+        <link rel="stylesheet" type="text/css" href="../../static/styles/main.css">
+        -->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="container">
+            <form action="/products" method="POST">
+                <div id="form-title">
+                    IKEA Stock Notifier
+                </div>
+                <div class="form-group row">
+                  <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                  <div class="col-sm-10">
+                    <input type="name" class="form-control" id="inputPassword3" placeholder="Name" name="name">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email" name="email">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputURL" class="col-sm-2 col-form-label">URL</label>
+                  <div class="col-sm-10">
+                    <input type="url" class="form-control" id="inputURL3" placeholder="IKEA URL" name="URL">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <div class="col-sm-2">Stores</div>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1" name="store" value="399">
+                      <label class="form-check-label" for="gridCheck1">
+                        CA, Burbank 
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1" name="store" value="162">
+                      <label class="form-check-label" for="gridCheck1">
+                        CA, Carson
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1" name="store" value="167">
+                      <label class="form-check-label" for="gridCheck1">
+                        CA, Costa Mesa
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1" name="store" value="413">
+                      <label class="form-check-label" for="gridCheck1">
+                        CA, Covina
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1" name="store" value="347">
+                      <label class="form-check-label" for="gridCheck1">
+                        CA, East Palo Alto
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1" name="store" value="165">
+                      <label class="form-check-label" for="gridCheck1">
+                        CA, Emeryville
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1" name="store" value="166">
+                      <label class="form-check-label" for="gridCheck1">
+                        CA, San Diego
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1" name="store" value="157">
+                      <label class="form-check-label" for="gridCheck1">
+                        CA, West Sacramento
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary" id="submit-button">Subscribe</button>
+                  </div>
+                </div>
+            </form>
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>

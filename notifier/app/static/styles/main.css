@@ -1,0 +1,44 @@
+body {
+    font-family: Roboto;
+    /*background-image: url("../images/bg.jpg");*/
+	background: url('../images/bg.jpg');  /* fallback for old browsers */
+    background-size: cover;
+}
+
+#container {
+    width: 50vw;
+    height: 70vh;
+    margin: 100px auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    border-radius: 15px;
+    opacity: 0.85;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+}
+
+form {
+    padding: 10px 100px;
+}
+
+#form-title {
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+
+#success {
+    text-align: center;
+    font-size: 40px;
+}
+#submit-button {
+    margin: 0px 45%;
+}
+
+#subscribe-button {
+    margin-top: 5px;
+    text-align: center;
+}
