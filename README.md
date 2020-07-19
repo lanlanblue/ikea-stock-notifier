@@ -4,7 +4,7 @@ A notifier that lets users subscribe to their favorite IKEA products which are u
 
 ## Usage
 Subscribe the product by pasting the product URL and register with your email address. You can unsubscribe the product from the link of email notification.
-![demo3.png] (https://github.com/lanlanblue/ikea-stock-notifier/blob/master/demo3.png)
+![demo3.png](https://github.com/lanlanblue/ikea-stock-notifier/blob/master/demo3.png)
 
 ## Features
 - Crawler for crawling data from the stock database
