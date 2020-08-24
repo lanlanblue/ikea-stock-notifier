@@ -1,9 +1,9 @@
 # ikea-stock-notifier
-A notifier that lets users subscribe to their favorite IKEA products which are unavailable. This notifier will crawl the stock status every hour and notify users immediately once the products are back to the stock.
+A notifier that lets users subscribe to their favorite IKEA products which are out of stock. This notifier will crawl the stock status every hour and notify users immediately once the product is back in stock.
 ![demo1.png](https://github.com/lanlanblue/ikea-stock-notifier/blob/master/demo1.png)
 
 ## Usage
-Subscribe the product by pasting the product URL and register with your email address. You can unsubscribe the product from the link of email notification.
+Subscribe to be notified when the product is in stock by pasting the product URL and providing your email address. You can unsubscribe from the notifications using the provided link in the email notification.
 ![demo3.png](https://github.com/lanlanblue/ikea-stock-notifier/blob/master/demo3.png)
 
 ## Features
